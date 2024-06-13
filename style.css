@@ -1,0 +1,88 @@
+* {
+  margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  background-color: rgb(169, 169, 169);
+}
+
+#email,
+#name {
+  color: rgb(255, 255, 255);
+  background-color: rgb(24, 24, 24);
+}
+
+.form {
+  width: 300px;
+  margin: 0auto;
+  padding: 2rem 0;
+}
+
+.form input {
+  display: block;
+  width: 100%;
+  margin: 1rem 0;
+  padding: 5px 2px;
+}
+
+.form button {
+  width: 100%;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.update_btn {
+  margin: 1rem 0;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+table {
+  width: 50%;
+  margin: auto;
+}
+
+table tr td {
+  border: 1px solid;
+  padding: 5px 0;
+  text-align: center;
+}
+
+table button {
+  padding: 5px 20px;
+  background: rgb(0, 0, 0);
+  border: 1px solid;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.3 ease-in;
+}
+
+table button:hover {
+  background: white;
+  color: black;
+}
+
+table button.edit {
+  background-color: rgb(56, 56, 56);
+}
+
+table button.edit:hover {
+  background: white;
+  color: black;
+}
